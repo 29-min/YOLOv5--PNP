@@ -1,6 +1,9 @@
 # YOLOv5--PNP
 yolov5를 활용한 교내 이동량 분석
 > https://github.com/ultralytics/yolov5
+
+> ![py](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
+> 
 ## 1. 주제 선정 및 사유
 
 ### 주제: 교내 혼잡도 통계를 작성하고 이를 기반으로 혼잡도 예상 시스템을 구축한다.
@@ -13,12 +16,12 @@ yolov5를 활용한 교내 이동량 분석
     - AI 기반으로 데이터를 축적하고 이를 통해 캠퍼스 운영의 문제점을 정량적이고 객관적으로 분석하고, 시간대별 혼잡도를 기준으로 운영상의 개선 방안을 제시할 수 있다.
 - 기술적 난이도와 실현 가능성
     - PNP AI 스터디 팀이 코드를 구현하고 이를 운용하기에 적절한 난이도를 가진다. 사전 학습된 YOLO 모델을 활용해 Object Detection을 구현하고 이를 응용하여 통계작성을 하여 결과물을 만들었다.
-
+- - -
 ## 2. 목표
 
 YOLO (You Only Look Once) 모델을 활용하여 특정 공간의 혼잡도를 분석하기 위해 객체 탐지(Object Detection)를 구현하고, 탐지된 객체 수를 카운팅하여 시간별로 통계 데이터를 생성하고 이를 응용한다.
 
-## (기본 개념)
+## ${\textsf{\color{yellow}기본개념}}$
 
 ### a. 영상 처리: 
   디지털 이미지나 비디오에서 유용한 정보를 추출하고 분석하는 것으로,
@@ -51,6 +54,11 @@ YOLO (You Only Look Once) 모델을 활용하여 특정 공간의 혼잡도를 �
 3. **객체 카운팅:**탐지된 각 객체(예: 사람, 책상, 가방 등)의 개수를 통계로 저장.
 
 ---
+<details>
+<summary>
+<---내부 코드 확인 
+</summary>
+    
 ### Google Drive 마운트
       from google.colab import drive
       drive.mount('/content/drive')
@@ -116,7 +124,7 @@ YOLO (You Only Look Once) 모델을 활용하여 특정 공간의 혼잡도를 �
 
     frame_number += 1
 + YOLOv5를 통해 객체를 감지 및 통계 수집
-
+</details>
 
 ## 코드 전체 구조
 1. **입력 비디오 처리:**
