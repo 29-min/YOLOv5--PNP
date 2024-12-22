@@ -24,4 +24,4 @@ yolov5를 활용한 교내 이동량 분석
 #### f. R-NN 대비 YOLO가 갖는 이점:
   R-CNN(Regin-based Convolutional Nerual Networks)은 객체 검출에서 높은 정확도를 제공하지만, 여러 단계로 이뤄진 층으로 구조가 복잡하고 속도가 느리다. YOLO는 단일 신경망이며, 전체 이미지를 고려하여 예측하기 때문에 전반적인 컨텍스트를 반영한 정확한 검출이 가능하다.
 
-https://github.com/29-min/yolov5--PNP/blob/main/detection_data/11:22/detection_statistics_graph.png?raw=true
+![결과 그래프](https://github.com/29-min/yolov5--PNP/blob/main/detection_data/11:22/detection_statistics_graph.png?raw=true)
