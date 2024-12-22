@@ -1,4 +1,4 @@
-# yolov5--PNP
+# YOLOv5--PNP
 yolov5를 활용한 교내 이동량 분석
 > https://github.com/ultralytics/yolov5
 ## 1. 주제 선정 및 사유
