@@ -72,14 +72,13 @@ YOLO (You Only Look Once) 모델을 활용하여 특정 공간의 혼잡도를 �
       fps = cap.get(cv2.CAP_PROP_FPS)
       frame_skip = 30  # 30프레임마다 (1초 간격으로) 분석
       frame_number = 0  # 프레임 번호 초기화
+  
+  + 프레임 건너뛰기 설정: 처리 속도를 높이기 위해 30프레임마다 탐지.
       
   ### 통계 저장을 위한 데이터 구조
       statistics = defaultdict(list)
       time_intervals = []
       confidence_threshold = 0.7  # 컨센서스 설정
-
-
-+ 프레임 건너뛰기 설정: 처리 속도를 높이기 위해 30프레임마다 탐지.
   
 + 컨센서스 설정: 잘못된 인식을 낮추기 위해 값 조정
 
