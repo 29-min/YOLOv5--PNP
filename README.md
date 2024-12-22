@@ -57,7 +57,7 @@ YOLO (You Only Look Once) 모델을 활용하여 특정 공간의 혼잡도를 �
 ---
 <details>
 <summary>
-<---내부 코드 확인 
+<h3>👈내부 코드 확인</h3>
 </summary>
     
 ### Google Drive 마운트
