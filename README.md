@@ -1,5 +1,6 @@
 # yolov5--PNP
 yolov5를 활용한 교내 이동량 분석
+> https://github.com/ultralytics/yolov5
 
 ## 1. 기본 개념
 - - -
@@ -28,9 +29,6 @@ yolov5를 활용한 교내 이동량 분석
 
 ## 2. 코드 설명
 
->git clone https://github.com/username/project-name.git
-
->cd project-name
 
 
 
