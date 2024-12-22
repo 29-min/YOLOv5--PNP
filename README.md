@@ -21,8 +21,7 @@ yolov5를 활용한 교내 이동량 분석
 
 YOLO (You Only Look Once) 모델을 활용하여 특정 공간의 혼잡도를 분석하기 위해 객체 탐지(Object Detection)를 구현하고, 탐지된 객체 수를 카운팅하여 시간별로 통계 데이터를 생성하고 이를 응용한다.
 
-## <span style="color: yellow; font-family: Arial;">기본개념</span>
-
+## ✨ 기본개념 ✨
 
 
 ### a. 영상 처리: 
