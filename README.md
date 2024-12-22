@@ -20,23 +20,22 @@ YOLO (You Only Look Once) 모델을 활용하여 특정 공간의 혼잡도를 �
 
 ## (기본 개념)
 - - -
-#### a. 영상 처리: 
+### a. 영상 처리: 
   디지털 이미지나 비디오에서 유용한 정보를 추출하고 분석하는 것으로,
   CV의 한 분야이다. 이미지, 필터링, 객체 인식, 추적, 분할 등 다양한 작업을 포함함.
 
 ![Object Dection, Localization, Classification](https://github.com/29-min/yolov5--PNP/blob/main/Detection%2C%20Localization%2C%20Classification.png)
-#### b. Object Dection: 
+### b. Object Dection: 
   이미지나 비디오 내에서 특정 객체를 식별하고 대항 객체의 위치를 지정하는 기술로
   단순한 분류(Classification)와 달리, 객체의 존재 여부와 함께 위치 정보(bounding box)를 제공하여 정밀 분석이 가능하다.
-<span style="background-color:#fff5b1"> 노란형광펜 </span>
-<span style="color:#2D3748; background-color:fff5b1;"> c. Localization: </span> 
 
+### c. Localization: 
   이미지나 비디오 내에서 객체의 위치를 찾는 과정으로, 객체의 경계를 나타내는 bounding box를 생성하고 객체의 크기와 위치를 파악하여 정보를 제공한다.
 
-#### d. Classification: 
+### d. Classification: 
   이미지나 비디오 내의 객체를 특정 카테고리로 분류하는 작업. 이미지 내의 객체가 사람, 자동차, 고양이 등 어떤 클래스에 속하는지 식별한다. 
 
-#### e. YOLO(You Only Look Once): 
+### e. YOLO(You Only Look Once): 
   객체 인식을 실시간으로 수행할 수 있는 딥러닝 모델로 이미지를 X * X 그리드로 분할, 각 그리드 셀이 bounding box와 클래스의 확률을 예측함. 이 과정은 단일 신경망을 통해 한 번에 이루어지므로 속도가 빠르다는 이점이 있다. 
 
 #### f. R-NN 대비 YOLO가 갖는 이점:
