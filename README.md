@@ -8,6 +8,8 @@ yolov5를 활용한 교내 이동량 분석
   CV의 한 분야이다. 이미지, 필터링, 객체 인식, 추적, 분할 등 다양한 작업을 포함하며 이 프로젝트에서는 
   동일한 시간대에 촬영한 영상을 통해 이동량을 분석하는 것을 목표로 하였다.
 
+  
+![Object Dection, Localization, Classification](https://github.com/29-min/yolov5--PNP/blob/main/Detection%2C%20Localization%2C%20Classification.png)
 #### b. Object Dection: 
   이미지나 비디오 내에서 특정 객체를 식별하고 대항 객체의 위치를 지정하는 기술로
   단순한 분류(Classification)와 달리, 객체의 존재 여부와 함께 위치 정보(bounding box)를 제공하여 정밀 분석이 가능하다.
